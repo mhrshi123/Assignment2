@@ -254,67 +254,6 @@ input[type="submit"]:hover {
 input::placeholder{
   color: #aaa;
 }
-@media screen and (min-width: 601px) and (max-width: 1024px) {
-  
-  p {
-    font-size: 0.9rem;
-  }
-  .MainElements {
-    grid-template-columns: 60% 40%;
-  }
-  
-  .images {
-    grid-template-columns: 50% 50%;
-  }
-
-  aside {
-      background-image: url(https://th.bing.com/th/id/R.ea57e719f97cfde69d34fffdc7502de6?rik=FPDJx6CT%2bbOCkg&pid=ImgRaw&r=0);
-      margin: 0px 0.5rem;
-  }
-  
-  aside ul li a{
-    color:white;
-  }
-  
-  .dropdown-content {
-    min-width: 15vw;
-  }
-  
-  .gallery {
-    grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 30% 30% 30%;
-  }
-  
-  .griditems {
-    width: 90%;
-    height: 90%;
-  }
-}
-
-@media screen and (min-width: 1025px) {
-
-  body {
-    font-size: 1.2rem;
-  }
-  
-  .MainElements {
-    grid-template-columns: 70% 30%;
-  }
-  
-  .images {
-    grid-template-columns: 50% 50%;
-  }
-  
-  .gallery {
-    grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 30% 30% 30%;
-  }
-  
-  .griditems {
-    width: 90%;
-    height: 90%;
-  }
-}
 @media screen and (max-width: 600px) {
   :root {
     font-size: 0.8rem;
@@ -351,7 +290,6 @@ input::placeholder{
     margin: 0px 0.3rem;
   }
 }
-
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   
